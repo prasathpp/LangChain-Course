@@ -5,8 +5,6 @@ import httpx
 from langchain_openai import AzureChatOpenAI
 from langchain_core.prompts import PromptTemplate
 
-
-load_dotenv()
 load_dotenv()
 temperature = 0
 api_type = "azure_ad"
